@@ -1,0 +1,46 @@
+    1  docker pull centos:7
+    2  docker login
+    3  docker push 
+    4  docker push  --help
+    5  docker images
+    6  docker push -a eeb6
+    7  docker push -a eeb6ee3f44bd
+    8  docker tag centos manuupadhya11/CentOS
+    9  docker tag centos manuupadhya11/gfgcentos
+   10  docker images
+   11  docker tag centos manuupadhya11/gfgcentos
+   12  docker tag centos:7 manuupadhya11/gfgcentos
+   13  docker images
+   14  docker push manuupadhya11/gfgcentos
+   15  docker pull jinny1/mario-game
+   16  clear
+   17  sudo docker images
+   18  docker run -d jinny/mario-game
+   19  docker run -d jinny1/mario-game
+   20  sudo docker ps
+   21  docker inspect a859f
+   22  curl 172.17.0.2:80
+   23  history
+   24  docker run -d -p 80:80  jinny1/mario-game
+   25  docker ps
+   26  docker stop a859f
+   27  docker ps
+   28  docker inspect 8f3ac
+   29  curl 172.17.0.3
+   30  netstat -tnlp
+   31  docker stop 8fa
+   32  docker stop 8f3ac
+   33  docker run -d -p 8080:80  jinny1/mario-game
+   34  sudo docker ps
+   35  docker inspect deed
+   36  netstat tnlp
+   37  netstat -tnlp
+   38  docker tag jinny1/mario-game:latest manuupadhya11/mario-game
+   39  docker images
+   40  docker push
+   41  history
+   42  docker push manuupadhya11/mario-game
+   43  clear
+   44  history
+   45  clear
+   46  history
