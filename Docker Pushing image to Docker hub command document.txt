@@ -1,0 +1,6 @@
+#docker login
+#docker tag myimg manuupadhya11/myimg
+#docker push manuupadhya11/myimg
+
+
+#initially login using username and password of docker hub account
