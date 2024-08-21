@@ -1,0 +1,188 @@
+Please Neglect the number attached with commands, commands are in order of execution with wrong numbers
+
+
+
+    1  yum install docker
+    2  sudo yum install docker
+    3  systemctl enable docker
+    4  sudo systemctl enable docker
+    5  sudo systemctl start docker
+    6  sudo systemctl status docker
+    7  clear
+    8  sudo docker image ls
+    9  sudo docker run centos
+   10  sudo docker image ls
+   11  sudo docker ps
+   12  yum install nano
+
+    1  docker build -t mmycustomhttpd:V1 .
+    2  docker images
+    3  docker run -d -it -p 8080:80 mycustomhttpd:V1
+    4  docker run --name myos mycustomhttpd:V1
+    5  docker run --name myos mmycustomhttpd:V1
+    6   docker ps
+    7  docker ps-a
+    8  docker ps -a
+    9  clear
+   10  nano Dockerfile 
+   11  docker run --name myos1 mmycustomhttpd:V1 cal
+   12  docker run --name myos1 mmycustomhttpd:V1 cal date
+   13  docker run --name myos2 mmycustomhttpd:V1 cal date
+   14  docker run --name myos2 mmycustomhttpd:V1 cal
+   15  docker run --name myos3 mmycustomhttpd:V1 cal
+   16  docker rm myos3
+   17  docker rm myos2
+   18  docker rm myos1
+   19  docker rm myos
+   20  docker ps -a
+   21  clear
+   22  name = mani
+   23  name=manu
+   24  $name
+   25  echo $name
+   26  docker run --name myos1 mmycustomhttpd:V1 echo $x
+   27  docker rm myos1
+   28  docker ps -a
+   29  docker images
+   30  docker run --name myos1 mmycustomhttpd:V1
+   31  docker run mmycustomhttpd:V1 ls
+   32  docker run mmycustomhttpd:V1 date
+   33  docker run mmycustomhttpd:V1 drm
+   34  docker run mmycustomhttpd:V1 echo $name
+   35  sudo docker ps -a
+   36  docker rm 
+   37  docker run mmycustomhttpd:V1 cal
+   38  docker run mmycustomhttpd:V1 cal
+   39  clear
+   40  docker ps -a
+   41  docker run -it mmycustomhttpd:V1 cal
+   42  docker run -it mmycustomhttpd:V1 
+   43  docker run -t mmycustomhttpd:V1 
+   44  docker run -d mmycustomhttpd:V1 
+   45  docker ps
+   46  docker ps -a
+   47  docker run -d mmycustomhttpd:V1 -it
+   48  docker run -d mmycustomhttpd:V1 bash
+   49  docker ps -a
+   50  docker ps 
+   51  docker run -it centos
+   52  clear
+   53  docker ps -a
+   54  docker ps 
+   55  nano 
+   56  nano Dockerfile 
+   57  docker build -t mmycustomhttpd:V2
+   58  docker build -t mmycustomhttpd:V2 .
+   59  docker run mmycustomhttpd:V2 cal
+   60  docker run mmycustomhttpd:V2
+   61  docker run mmycustomhttpd:V2 date
+   62  docker run mmycustomhttpd:V2 %a
+   63  nano Dockerfile 
+   64  docker build -t mmycustomhttpd:V2 .
+   65  docker run mmycustomhttpd:V2
+   66  nano Dockerfile 
+   67  docker build -t mmycustomhttpd:V2 .
+   68   nano Dockerfile 
+   69  docker build -t mmycustomhttpd:V2 .
+   70  docker run mmycustomhttpd:V2
+   71  docker run -d mmycustomhttpd:V2
+   72  docker ps
+   73  docker run -d mmycustomhttpd:V2 -A
+   74  docker ps 
+   75  docker attach 4769
+   76  docker attach 4769dab3
+   77  docker ps
+   78  docker run -d mmycustomhttpd:V2
+   79  docker ps
+   80  docker attach 8a339
+   81  clear
+   82  docker ps
+   83   nano Dockerfile 
+   84   nano Dockerfile 
+   85  docker build -t mmycustomhttpd:V3 .
+   86  docker run -d mmycustomhttpd:V3
+   87  docker ps
+   88  docker inspect fb184
+   89  docker ps
+   90  docker attach fd184
+   91  docker attach fb184
+   92  docker ps
+   93  docker run -d mmycustomhttpd:V3
+   94  docker ps
+   95  docker inspect 254930
+   96  docker ps
+   97  docker inspect fervrnt_
+   98  docker inspect 25493_
+   99  docker inspect 25493
+  100  curl 172.17.0.2
+  101  nano Dockerfile
+  102  clear
+  103  docker images
+  104  docker build -t mmycustomhttpd:V4 .
+  105  docker run -d mmycustomhttpd:V4
+  106  docker ps
+  107  docker inspect e5b5
+  108  docurl 172.17.0.3
+  109  curl 172.17.0.3
+  110  docker ps
+  111  docker images
+  112  docker history mmycustomhttpd:V1
+  113  docker history centos:latest
+  114  docker history ngnix
+  115  docker history ngnix:latest
+  116  docker history mmycustomhttpd:V4
+  117  nano do
+  118  nano Dockerfile 
+  119  yum install nano
+  120  nano Dockerfile
+  121  vi Dockerfile 
+  122  nano index.html
+  123  vi Dockerfile 
+  124  pwd
+  125  nano Dockerfile 
+  126  nano Dockerfile
+  127  nano DO
+  128  nano Dockerfile 
+  129  nano Dockerfile 
+  130  clear
+  131  sudo su
+	pip install python3
+   16  yum install python3
+   17  sudo yum install python3
+   18  clear
+   19  vi app.py
+   20  python3 app.py
+   21  vi app.py
+   22  python3 app.py
+   23  nano index.html
+   24  mkdir python-app
+   25  cd python-app/
+   26  cd ..
+   27  cd ../app.py
+   28  cd python-app/
+   29  cp ../app.py .
+   30  ls
+   31  vi Dockerfile
+   32  nano requirements.txt
+   33  nano Dockerfile 
+   34  docker build -t mypython:V1 .
+   35  sudo su
+   36  history
+  132  docker build -t mypython:V1 .
+  133  vi requirements.txt 
+  134  docker build -t mypython:V1 .
+  135  docker imsages
+  136  docker images
+  137  docker run mypython:V1
+  138   docker login
+  139  docker login
+  140  docker images
+  141  docker tag mypython manuupadhya11/mypythonbasicapp
+  142  docker tag mypython:V1 manuupadhya11/mypythonbasicapp
+  143  docker push manuupadhya11/mypythonbasicapp
+  144  docker tag mmycustomhttpd:V4 manuupadhya11/httpdserverbasicimage
+  145  docker push manuupadhya11/httpdserverbasicimage
+  146  nano app.py
+  147  nano Dockerfile 
+  148  nano requirements.txt 
+  149  history
