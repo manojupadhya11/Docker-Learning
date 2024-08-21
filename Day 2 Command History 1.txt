@@ -185,4 +185,5 @@ Please Neglect the number attached with commands, commands are in order of execu
   146  nano app.py
   147  nano Dockerfile 
   148  nano requirements.txt 
-  149  history
+  149 docker rm `docker ps -a -q`
+150 echo `date`
