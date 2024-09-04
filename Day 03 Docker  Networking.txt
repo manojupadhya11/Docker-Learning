@@ -1,0 +1,69 @@
+    1  yum install docker
+    2  systemctl start docker
+    3  docker run -p 8080:8080 -p 50000:50000 -dit --name jenkins --restart=on-failure -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk17
+    4  docker ps
+    5  docker image ls
+    6  docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+    7  docker network create --driver bridge --subnet 192.168.100.0/24 --gateway 192.168.100.1 manunetwork
+    8  docker network ls
+    9  route -n
+   10  ifconfig
+   11  docker network ls
+   12  history
+   13  docker run -dit --network none centos:7
+   14  docker inspect centos:7
+   15  docker ps
+   16  docker attacj 97
+   17  docker attach 97
+   18  docker ps
+   19  docker network ls
+   20  docker network ls
+   21  docker inspect manunetwork
+   22  docker run -it --name webos centos:7
+   23  docker attach webos
+   24  docker rm webos
+   25  docker run -it --name webos --network manunetwork centos:7
+   26  docker run -it --network host centos:7
+   27  docker run -it --network host ngnix
+   28  docker run -it --network host nginx
+   29  docker ps
+   30  docker ps -a
+   31  docker rm nginx
+   32  docker rm 75cc
+   33  docker rm 1495
+   34  docker rm webos
+   35  docker ps 
+   36  docker rm-f webos
+   37  docker ps-a
+   38  docker ps -a
+   39  docker rm 976
+   40  docker ps
+   41  docker ps-a
+   42  docker ps -a
+   43  docker rm d4f
+   44  docker ps a-
+   45  docker ps -a
+   46  docker ps
+   47  history
+
+
+
+
+
+
+   48  docker  network create --driver bridge net1
+   49  docker  network create --driver bridge net2
+   50  docker network ls
+   51  docker run -dit --name webos1 --network net1 centos:7
+   52  docker run -dit --name webos2 --network net2 centos:7
+   53  docker ps
+   54  docker attach webos1
+   55  docker attach webos2
+   56  docker ps
+   57  docker network connect net2 webos1
+   58  docker attach webos1
+   59  docker attach webos2
+   60  docker network connect net1 webos2
+   61  docker attach webos2
+
+   63  history
