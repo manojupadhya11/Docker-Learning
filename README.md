@@ -32,24 +32,24 @@ In that docker-compose.yml used to launch two containers one for SonarQube serve
 https://github.com/manojupadhya11/CI-CD-Jenkins-Learning/blob/main/docker-compose.yml   --> Link to the repo
 
 #Command for Docker Compose
-1. docker-compose up: Starts and runs containers as defined in the docker-compose.yml file.
-2. docker-compose down: Stops and removes containers, networks, and volumes created by up.
-3. docker-compose build: Builds or rebuilds services.
-4. docker-compose pull: Pulls images for the services defined in the docker-compose.yml.
-5. docker-compose push: Pushes images of the services to a Docker registry.
-6. docker-compose start: Starts existing containers without creating new ones.
-7. docker-compose stop: Stops running containers without removing them.
-8. docker-compose restart: Restarts running containers.
-9. docker-compose logs: Shows the logs of running containers.
-10. docker-compose exec: Executes a command inside a running container.
-11. docker-compose run: Runs a one-off command in a new container.
-12. docker-compose ps: Lists the status of all running containers.
-13. docker-compose config: Validates and displays the Compose file configuration.
-14. docker-compose version: Shows the version information of Docker Compose.
-15. docker-compose pause: Pauses all running services.
-16. docker-compose unpause: Unpauses previously paused services.
-17. docker-compose rm: Removes stopped containers.
-18. docker-compose kill: Forcefully stops containers.
+1. **docker-compose up:** Starts and runs containers as defined in the docker-compose.yml file.
+2. **docker-compose down:** Stops and removes containers, networks, and volumes created by up.
+3. **docker-compose build:** Builds or rebuilds services.
+4.** docker-compose pull:** Pulls images for the services defined in the docker-compose.yml.
+5. **docker-compose push:** Pushes images of the services to a Docker registry.
+6. **docker-compose start**: Starts existing containers without creating new ones.
+7.** docker-compose stop: **Stops running containers without removing them.
+8. **docker-compose restart:** Restarts running containers.
+9. **docker-compose logs:** Shows the logs of running containers.
+10. **docker-compose exec:** Executes a command inside a running container.
+11. **docker-compose run:** Runs a one-off command in a new container.
+12. **docker-compose ps:** Lists the status of all running containers.
+13. **docker-compose config:** Validates and displays the Compose file configuration.
+14. **docker-compose version:** Shows the version information of Docker Compose.
+15. **docker-compose pause:** Pauses all running services.
+16. **docker-compose unpause:** Unpauses previously paused services.
+17. **docker-compose rm:** Removes stopped containers.
+18. **docker-compose kill:** Forcefully stops containers.
 
 
 
