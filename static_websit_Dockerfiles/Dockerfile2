@@ -1,0 +1,30 @@
+#Use and official base image
+FROM python:3.9
+
+#sets the author field for the generated image
+MAINTAINER Manoj Upadhya
+
+#LABEL:- adds meta data to an image
+LABEL version="1.0" \
+      maintainer="manojupadhya11@gmail.com" \
+      description="This is a sample docker image"
+
+#Set the working directory for any RUN.CMD,ENTRYPOINT,COPY and ADD commands
+WORKDIR /app
+
+#COPY - copy new files,directories into the file system of the container.
+COPY requirements.txt app.py /app
+
+#RUN executes commands in a new layer on top of the current image(base image) and commit the resutls
+#RUN yum install docker -y
+RUN pip install -r requirements.txt
+
+#CMD: - allowed only once (if many then last one takes effect)
+#CMD ["date","Cal"]
+
+#CMD ["python", "app.py"]
+
+#CMD ["tail", "-f", "/dev/null"]
+
+#allows you to configure container that will run as executable
+ENTRYPOINT ["pwd"]
